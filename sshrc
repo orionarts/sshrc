@@ -45,7 +45,7 @@
 # (https://github.com/cdown/sshrc) with additional ideas taken from
 # taylorskalyo's fork (https://github.com/taylorskalyo/sshrc)
 #
-# shellcheck disable=SC2016 (Expressions don't expand in single quotes)
+# shellcheck disable=SC2016 # (Expressions don't expand in single quotes)
 #
 # Defaults {{{1
 #

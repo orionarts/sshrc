@@ -208,7 +208,7 @@ files.
 
 # REPORTING BUGS
 
-GitHub Issues: <https://github.com/jbrubake/sshrc/issues>
+GitHub Issues: <https://github.com/orionarts/sshrc/issues>
 
 # COPYRIGHT
 

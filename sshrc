@@ -57,7 +57,7 @@ DO_TMUX=false;   # Include tmuxrc framework
 
 # Documentation {{{1
 #
-VERSION=2.0
+VERSION=2.1.0
 
 print_version() { # {{{2
     cat <<END

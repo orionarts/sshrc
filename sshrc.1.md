@@ -151,11 +151,12 @@ needed to configure environment variables or aliases to force remote commands to
 use the **sshrc** version of their configurations.
 
 For example, add an alias to your **sshrc** file to have **vim** use
-*\$SSHRC_HOME/vimrc* instead of *~/.vimrc~:
+*\$SSHRC/vimrc* instead of *~/.vimrc*:
 
-    # $SSHRC_HOME/sshrc
-    ...
-    alias vim='vim -u $SSHRC/vimrc'
+    alias vim='vim -Nu $SSHRC/vimrc'
+
+(`-N` forces `'nocompatible'` because `-u` sets `'compatible'`, which is
+normally what you want. Remove the `-N` if you **want** vi-compatibility.)
 
 ### Tmux
 
